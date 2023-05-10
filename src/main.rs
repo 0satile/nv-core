@@ -1,3 +1,9 @@
+mod window;
+
 fn main() {
-    println!("Hello, world!");
+    window::create_instance(
+        "window_title", 
+        "http://localhost:5173", 
+        1024, 600
+    );
 }
